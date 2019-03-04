@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="54dp"
         android:onClick="nextact"
-        android:text="Login"
+        android:text="Access Flask"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

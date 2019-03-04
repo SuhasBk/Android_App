@@ -44,7 +44,8 @@ public class power extends AppCompatActivity {
         wifi.setWifiEnabled(false);
     }
 
-    public void nextact(View view){
-        startActivity(new Intent(power.this, MainActivity.class));
+    public void nextact(View view)
+    {
+        startActivity(new Intent(power.this, RestPost.class));
     }
 }
