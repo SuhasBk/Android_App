@@ -46,6 +46,6 @@ public class power extends AppCompatActivity {
 
     public void nextact(View view)
     {
-        startActivity(new Intent(power.this, RestPost.class));
+        startActivity(new Intent(power.this,null));
     }
 }
