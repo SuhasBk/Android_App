@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlaskRestDemo">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the word..."
+            android:textAlignment="center"
+            android:textColor="@color/ic_launcher_background"
+            android:textStyle="italic" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:onClick="FindMeaning"
+        android:text="Meaning"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/meaning"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:layout_marginTop="168dp"
+        android:baselineAligned="false"
+        android:fontFamily="sans-serif"
+        android:scrollbars="vertical"
+        android:text="Loading... Please wait..."
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        android:typeface="normal"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
