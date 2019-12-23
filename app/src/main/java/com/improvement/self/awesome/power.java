@@ -35,17 +35,17 @@ public class power extends AppCompatActivity {
     }
 
     public void on(View view){
-        WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        WifiManager wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         wifi.setWifiEnabled(true);
     }
 
     public void off(View view){
-        WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        WifiManager wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         wifi.setWifiEnabled(false);
     }
 
     public void nextact(View view)
     {
-        startActivity(new Intent(power.this,null));
+        startActivity(new Intent(power.this,FlaskRestDemo.class));
     }
 }

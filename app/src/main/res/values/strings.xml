@@ -1,9 +1,7 @@
 <resources>
-    <string name="app_name">My Flask</string>
+    <string name="app_name">Suhas Bk</string>
     <string name="action_settings">EXIT</string>
-    <string name="large_text">
-        "\nHi everyone,\n First of all, thanks for having the time to check out my app!\n I am Suhas. Just a regular computer science engineering student from Bangalore.\n So, this is my first app. I didn't have any background in Java nor XML when i developed this app.\n You could say I developed this app out of nowhere. But yeah, the Internet was very helpful(as always, sigh).\n To outline the details of this app: \n 1) Opens Facebook. \n2) Opens Instagram.\n 3) Opens WhatsApp!.\n So click the button and have fun!"
-    </string>
+    <string name="large_text"></string>
     <string name="title_activity_content">About</string>
     <string name="welcome_message">HEY PEEPS!</string>
     <string name="title_activity_testing">testing</string>
